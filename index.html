@@ -6,13 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Música para todos - Spotify</title>
+    <link rel="icon" href="./imagens/favicon.png" />
 
     <!-- Bootstrap -->
     <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="container"></div>
+    <nav class="nav navbar-fixed-top navbar-inverse nav-transparent">
+      <div class="container">
+        <!--Header-->
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#navbarCol"
+          >
+            <span class="sr-only">Alternar Navegação</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="index.html" class="navbar-brand">
+            <span class="logo">Spotify</span>
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarCol">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Premium</a></li>
+            <li><a href="#">Ajuda</a></li>
+            <li><a href="#">Baixar</a></li>
+            <li class="divide" role="separator"></li>
+            <li><a href="#">Inscrever-se</a></li>
+            <li><a href="#">Entrar</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
