@@ -1,34 +1,99 @@
-.logo{
-    height: 40px;
-    width: 132px;
-    display: block;
-    background: url('./imagens/spotify.svg') no-repeat;
-    background-size: contain;
-    color: transparent;
+html,
+body,
+.capa {
+  height: 100%;
 }
 
-nav.nav-transparent{
-    padding: 15px 0;
-    background: rgba(0, 0,0,0.6);
-    border: none;
+/*Background*/
+body {
+  background: url("./imagens/capa.png"), url("./imagens/ruido.png"),
+    linear-gradient(50deg, #ff4169, #7c26f8);
+
+  background-attachment: fixed;
+  font-family: Hevletica, Arial, sans-serif;
 }
 
-.navbar-brand{
-    padding: 5px 15px;
+/*Navbar*/
+.logo {
+  height: 40px;
+  width: 132px;
+  display: block;
+  background: url("./imagens/spotify.svg") no-repeat;
+  background-size: contain;
+  color: transparent;
 }
 
-.divide{
-    width: 1px;
-    height: 16px;
-    background-color: #fff;
-    margin: 16px 10px;
+nav.nav-transparent {
+  padding: 15px 0;
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
 }
 
-.navbar-inverse .navbar-nav>li>a {
-    color: #fff;
+.navbar-brand {
+  padding: 5px 15px;
 }
 
-.navbar-inverse .navbar-nav>li>a:hover{
-    color: #9bf0e1;
+.divide {
+  width: 1px;
+  height: 16px;
+  background-color: #fff;
+  margin: 16px 10px;
 }
 
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #9bf0e1;
+}
+
+/*cover*/
+.capa {
+  display: table;
+  width: 100%;
+}
+
+.texto-capa {
+  text-align: center;
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/*Buttons*/
+.btn-custom {
+  color: #fff;
+  border-radius: 500px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  margin: 0px 15px;
+  font-weight: 750;
+  transition: background 0.4s, color 0.4s;
+}
+
+.btn-p {
+  background-color: #7c25f8;
+}
+
+.btn-p:hover {
+  background-color: #6207e3;
+  color: #fff;
+}
+
+.btn-w {
+  border: 2px solid #fff;
+}
+
+.btn-w:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/*Text format*/
+h1 {
+  font-size: 100px;
+  font-weight: 900;
+  letter-spacing: -0.05rem;
+  margin-bottom: 50px;
+}
