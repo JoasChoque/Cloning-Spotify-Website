@@ -11,6 +11,7 @@ body {
 
   background-attachment: fixed;
   font-family: Hevletica, Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 /*Navbar*/
@@ -90,10 +91,57 @@ nav.nav-transparent {
   color: #000;
 }
 
+/*Section servicos*/
+.servicos {
+  background-color: #fff;
+  padding: 20px 0px;
+}
+
+.albuns {
+  padding: 10px 0px 10px 0px;
+}
+
+.recursos {
+  padding: 20px 0px;
+  color: #fff;
+}
+
+.rotacionar {
+  transform: rotate(30deg);
+  padding-left: 80px;
+}
+
 /*Text format*/
 h1 {
   font-size: 100px;
   font-weight: 900;
   letter-spacing: -0.05rem;
   margin-bottom: 50px;
+}
+
+.servicos h2 {
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  color: #7c25f8;
+}
+
+.servicos h3 {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  color: #7c25f8;
+}
+
+.recursos h2 {
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+.recursos h3 {
+  color: #9bf0e1;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
 }
