@@ -2,6 +2,7 @@ html,
 body,
 .capa {
   height: 100%;
+  overflow: auto;
 }
 
 /*Background*/
@@ -68,9 +69,7 @@ footer .nav a:hover {
 .btn-custom {
   color: #fff;
   border-radius: 500px;
-  padding: 10px 30px;
   text-transform: uppercase;
-  margin: 0px 15px;
   font-weight: 750;
   transition: background 0.4s, color 0.4s;
 }
@@ -125,7 +124,6 @@ footer .nav a:hover {
 
 /*Text format*/
 h1 {
-  font-size: 100px;
   font-weight: 900;
   letter-spacing: -0.05rem;
   margin-bottom: 50px;
@@ -162,4 +160,36 @@ h1 {
   color: #919496;
   font-size: 15px;
   text-transform: uppercase;
+}
+
+/*Media Query*/
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  .btn-custom {
+    margin: 10px 15px;
+  }
+}
+
+/*Small devices*/
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 70px;
+  }
+}
+
+/*Medium devices*/
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 80px;
+  }
+}
+
+/*Large devices*/
+@media scren and (min-width: 1200px) {
+  h1 {
+    font-size: 100px;
+  }
 }
